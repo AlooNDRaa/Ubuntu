@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "UbuntuApiApplication",
+            "request": "launch",
+            "mainClass": "net.quintoimpacto.ubuntuapi.UbuntuApiApplication",
+            "projectName": "ubuntu-api",
+            "env": {
+                "DB_NAME":"${DB_NAME}",
+                "DB_SERVER_URL":"${DB_SERVER_URL}",
+                "DB_USERNAME":"${DB_USERNAME}",
+                "DB_USER_PASSWORD":"${DB_USER_PASSWORD}",
+                "CLIENT_ID": "${CLIENT_ID}",
+                "CLIENT_SECRET": "${CLIENT_SECRET}",
+                "REDIRECT_URI" : "${REDIRECT_URI}",
+                "SECRET_KEY" : "${SECRET_KEY}",
+                "FRONTEND_URL" : "${FRONTEND_URL}",
+                "CLOUDINARY_NAME":"${CLOUDINARY_NAME}",
+                "CLOUDINARY_API_KEY":"${CLOUDINARY_API_KEY}",
+                "CLOUDINARY_API_SECRET":"${CLOUDINARY_API_SECRET}"  ,
+                "FRONTEND_URL_UNAUTHORIZED":"${FRONTEND_URL_UNAUTHORIZED}"
+            }
+        }
+        
+    ]
+}
